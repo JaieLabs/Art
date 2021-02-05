@@ -1,0 +1,115 @@
+<!--The code here is written by That Indian Dev, This website is for Jaie Carter, All rights reserved -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+    margin: 0;
+      padding: 0;
+        overflow: hidden;
+          background-color: #333;
+            position: fixed;
+              top: 0;
+                width: 100%;
+                }
+                
+                li {
+                  float: left;
+                  }
+                  
+                  li a {
+                    display: block;
+                      color: white;
+                        text-align: center;
+                          padding: 14px 16px;
+                            text-decoration: none;
+                            }
+                            
+                            li a:hover:not(.active) {
+                              background-color: #111;
+                              }
+                              
+                              .active {
+                                background-color: #24dcdc;
+                                }
+                                
+                                body {
+                                  font-family: Arial;
+                                    background: #f1f1f1;
+                                    }
+                                    
+                                    .header {
+                                      padding: 30px;
+                                        font-size: 40px;
+                                          text-align: center;
+                                            background: white;
+                                            }
+                                            
+                                            .leftcolumn {
+                                              float: left;
+                                                width: 75%;
+                                                }
+                                                .rightcolumn {
+                                                  float: left;
+                                                    width: 25%;
+                                                      padding-left: 20px;
+                                                      }
+                                                      
+                                                      .fakeimg {
+                                                        background-color: #aaa;
+                                                          padding: 20px;
+                                                          
+                                                          .card {
+                                                            background-color: white;
+                                                              padding: 20px;
+                                                                margin-top: 20px;
+                                                                }
+                                                                
+                                                                .row:after {
+                                                                  content: "";
+                                                                    display: table;
+                                                                      clear: both;
+                                                                      }
+                                                                      .footer {
+                                                                        padding: 20px;
+                                                                          text-align: center;
+                                                                            background: #ddd;
+                                                                              margin-top: 20px;
+                                                                              }
+                                                                              
+                                                                              / Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+                                                                              @media screen and (max-width: 800px) {
+                                                                                .leftcolumn, .rightcolumn {
+                                                                                    width: 100%;
+                                                                                        padding: 0;
+                                                                                          }
+                                                                                          }
+                                                                                          </style>
+                                                                                          <title>Art & Comics</title>
+                                                                                          </head>
+                                                                                          <body>
+                                                                                          
+                                                                                          <ul>
+                                                                                          <li><a class="active" href="#home">Arts & Comics</a></li>
+                                                                                            <li><a href="#news">Social Media</a></li>
+                                                                                              <li><a href="#contact">My Games</a></li>
+                                                                                                <li><a href="#about">About</a></li>
+                                                                                                </ul>
+                                                                                                <br/>
+                                                                                                <br/>
+                                                                                                <br/>
+                                                                                                <div class="row">
+                                                                                                  <div class="leftcolumn">
+                                                                                                     <div class="card">
+                                                                                                          <br>
+                                                                                                             <h2>TITLE HEADING</h2>
+                                                                                                                  <h5>Title description, Dec 7, 2017</h5>
+                                                                                                                  <div class="fakeimg" style="height:200px;"><img src="https://cdn.discordapp.com/attachments/753833082112442368/795531781814222858/unknown.png"
+                                                                                                                    height="230" width="230"
+                                                                                                                    /><div>
+                                                                                                                    <p>Some text..</p>
+                                                                                                                    </div>
+                                                                                                                      </body>
+                                                                                                                      </html>
