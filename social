@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+          <meta name="" content="">
+              <title></title>
+                  <style>
+                      <!--copy code?, u be confused F-->
+                          body {margin:0;}
+                          
+                          ul {  list-style-type: none;
+                            margin: 0;
+                              padding: 0;
+                                overflow: hidden;
+                                  background-color: #333;
+                                    position: fixed;
+                                      top: 0;
+                                        width: 100%;}
+                                        
+                                        li {  float: left;}
+                                        
+                                        li a {  display: block;
+                                          color: white;
+                                            text-align: center;
+                                              padding: 14px 16px;
+                                                text-decoration: none;}
+                                                
+                                                li a:hover:not(.active) {background-color: #111;
+                                                }
+                                                
+                                                .active {  background-color: #4CAF50;}
+                                                
+                                                .teleport-user {text-align: center;
+                                                }
+                                                .a{ 
+                                                  font-family: 'Work Sans', sans-serif;
+                                                  }
+                                                  </style>
+                                                    </head>
+                                                      <body>
+                                                          <ul>
+                                                            <li><a class="active" href="#home">Home</a></li>
+                                                              <li><a href="#news">News</a></li>
+                                                                <li><a href="#contact">Contact</a></li>
+                                                                  <li><a href="#about">About</a></li>
+                                                                  </ul>
+                                                                  <div class="a">
+                                                                  <h1>Want To Know Me More?<br><strong>Here!</strong></h1>
+                                                                  <br></div>
+                                                                  <!--IMAGE CREDIT "IMG 1 = YOUTUBE WEBSITE" "2 = PINTREST"-->
+                                                                  <div class="teleport-user">
+                                                                  <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6sd7e2ikU4Yil9XbkAoRPEdKBE9kz0tQUEg&usqp=CAU" height="400"
+                                                                     width="89"
+                                                                     /></a></div>
+                                                                       </body>
+                                                                       </html>
